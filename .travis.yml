@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: miK7pLrcCVQAK1GhM49okqtiuIWXDM4K7VLys/2E1dIcLw6YhDLB+7pUe3S5cxIQKIj1qfTEXn62lMzKXU6RVEkGeCOBVx0HKF7G9xLLLnMcnjvxv4YnCdhe/pIeix9Baz/+jujh1RpJw2tG7/TCDraQxFqvT4In5C67mPPW7kMjJsPDhQNA2uShXjY7Z+jhKUlpnAqYFASJQdCB+lY1I3rwi8UI0UJHM8mbchAyffWL1sK68GDblK1/PnV2YpfnZxSjsM6MaoPqeD5KBMabTBVJvLDt2q2zpowuqxp7sDBlOznKDziP2YMQuSPZJbihu2CtBxLYFqYKccBpuuSoe+ovz10yQ2TQ1rn0+uOd0s0ejtF4oVe+e+MgaRRBOUoFZylASby8Y0xj1r5FOhOUeoG3hTpV6AY/fT8FSN5pFxgLPZmm/pSwO2j81wRzi7lQRO7qTLgakaFTxFikgRcQBAPka6xtwLAGzusJRUcImX+nLxAbWS2WrS2DK9D3zOMLnFUBH2A8arQpEQdhHR94h4w+puHwStAxOfXNYAcYHPEtJE/qkM0F++GXmVSjZEUEYKcUyB4vutaZcS2u41aPCxUqBM50Zbpzg+1ycmtjpzb+dEwzqtRAXOEpx0jupL/NEUB1/nh4tcLZH5CUAsYc32JfiUjQrSrl5gafaG5NXhc=
+  app: mighty-ocean-58064
+  on:
+    repo: mrk-ii/node-shopping-list-integration-tests
